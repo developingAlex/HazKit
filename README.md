@@ -8,3 +8,8 @@
 ## ERD
 
 ![ERD](app/assets/images/hazkit.png)
+
+## GEMs/APIs
+
+* Geocoder - maps
+* Omniauth - logging in via fbook for instance
