@@ -5,4 +5,5 @@ class Conversation < ApplicationRecord
 
   scope :between, ->(profile1_id, profile2_id) do
     joins(:profiles).where(profiles: {id: profile1_id}) & joins(:profiles).where(profiles: {id: profile2_id})
+  end
 end
