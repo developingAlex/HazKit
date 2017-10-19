@@ -12,4 +12,4 @@
 ## GEMs/APIs
 
 * Geocoder - maps
-* Omniauth - logging in via fbook for instance
+* Omniauth - logging in via fbook, google APIs for instance

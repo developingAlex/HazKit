@@ -39,18 +39,17 @@ gem 'jbuilder', '~> 2.5'
 
 #Amazon S3 for file uploading to Heroku
 gem 'aws-sdk', '~> 3'
-
 #For generating ERDs from our existing models
 gem 'rails-erd', require: false, group: :development
-
 # Shrine Dependencies
 gem 'fastimage'
 gem 'image_processing'
 gem 'mini_magick'
 gem 'shrine'
-
 #geocoder
 gem 'geocoder'
+#bootstrap
+gem 'bootstrap', '~> 4.0.0.beta'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
