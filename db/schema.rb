@@ -32,12 +32,12 @@ ActiveRecord::Schema.define(version: 20171019083423) do
   end
 
   create_table "profile_conversations", force: :cascade do |t|
-    t.bigint "user_id"
+    t.bigint "profile_id"
     t.bigint "conversation_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["conversation_id"], name: "index_profile_conversations_on_conversation_id"
-    t.index ["user_id"], name: "index_profile_conversations_on_user_id"
+    t.index ["profile_id"], name: "index_profile_conversations_on_profile_id"
   end
 
   create_table "profiles", force: :cascade do |t|
@@ -70,6 +70,6 @@ ActiveRecord::Schema.define(version: 20171019083423) do
   add_foreign_key "messages", "conversations"
   add_foreign_key "messages", "users"
   add_foreign_key "profile_conversations", "conversations"
-  add_foreign_key "profile_conversations", "users"
+  add_foreign_key "profile_conversations", "profiles"
   add_foreign_key "profiles", "users"
 end
