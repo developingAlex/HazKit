@@ -28,4 +28,6 @@
 
 * APIs/iFrames: Omniauth - logging in via fbook, google maps for locations
 
-* Searching function 
+* Searching function for locations
+
+* A button on each location show page, marking that the location is visited by the current user. Would be added to their profile
