@@ -27,5 +27,6 @@ module HazKit
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.assets.precompile += %w( .svg .eot .woff .ttf .png .jpg .gif)
   end
 end
