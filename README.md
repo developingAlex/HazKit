@@ -22,6 +22,8 @@
 
 * Bootstrap - a greater familiarity with it across the team would have sped up development
 
+* Heroku - issues with static assets
+
 ## Features to be implemented
 
 * APIs/iFrames: Omniauth - logging in via fbook, google maps for locations
