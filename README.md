@@ -12,9 +12,11 @@
 
 ## Wireframing
 
-![Figma link here](https://www.figma.com/file/ZzK8wDqYHfflCzlaXwa94JZI/TourHazardApp)
+[Figma link here](https://www.figma.com/file/ZzK8wDqYHfflCzlaXwa94JZI/TourHazardApp)
+![Wireframe](app/assets/images/hazkit_wireframe.jpg)
 
-## GEMs/APIs
 
-* Geocoder - maps
+## APIs/iFrames
+
 * Omniauth - logging in via fbook, google APIs for instance
+* Google Maps
