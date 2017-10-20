@@ -1,24 +1,25 @@
 <p id="notice"><%= notice %></p>
+<div class='container text-center'>
+  <h1 class='text-center'>
+    <%= @profile.name%>
+  </h1>
 
-<p>
-  <strong>User:</strong>
-  <%= @profile.user %>
-</p>
+  <div class='profilepic'><%#= image_tag @profile.profile_image_data %></div>
+  <br><br>
+  <%= link_to 'Edit', edit_profile_path(@profile) %>
+  <br><br>
+  <p>
+    <strong>Rating: </strong>10
+    <%#= waiting on posts models implementation %>
+  </p>
+  <p>
+    <strong>Posts written: </strong>1
+    <%#= waiting on posts models implementation %>
+  </p>
+  <p>
+    <strong>Home location:</strong>
+    <%= @profile.home_location %>
+  </p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @profile.name %>
-</p>
-
-<p>
-  <strong>Home location:</strong>
-  <%= @profile.home_location %>
-</p>
-
-<p>
-  <strong>Profile image data:</strong>
-  <%= @profile.profile_image_data %>
-</p>
-
-<%= link_to 'Edit', edit_profile_path(@profile) %> |
-<%= link_to 'Back', profiles_path %>
+  <%= link_to 'View all profiles', profiles_path %>
+<div>
