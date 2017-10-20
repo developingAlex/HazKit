@@ -12,11 +12,9 @@
 
 ## Wireframing
 
-[Figma link here](https://www.figma.com/file/ZzK8wDqYHfflCzlaXwa94JZI/TourHazardApp)
 ![Wireframe](app/assets/images/hazkit_wireframe.jpg)
 
-
-* Google Maps
+[Figma link here](https://www.figma.com/file/ZzK8wDqYHfflCzlaXwa94JZI/TourHazardApp)
 
 ## Challenges
 
