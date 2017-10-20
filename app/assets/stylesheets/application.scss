@@ -1,8 +1,12 @@
 @import 'bootstrap';
 
+// * {
+//   border: solid 1px lime;
+// }
+
 body {
   background: rgb(48, 48, 48);
-  color: rgb(235, 235, 235);  
+  color: rgb(235, 235, 235);
 }
 
 .top_nav {
@@ -13,7 +17,6 @@ body {
     font-family: 'Permanent Marker', cursive;
     color: rgb(250, 250, 127);
     text-shadow: 0 3px 5px rgba(0,0,0,0.2);
-    // padding-left: 2%;
   }
 }
 
@@ -38,12 +41,4 @@ body {
     color: rgb(235, 235, 235);
     text-decoration: none;
   }
-
-}
-
-.new_user_session {
-  width: 100vh;
-  height: 100vw;
-  background: rgb(48, 48, 48);
-  color: rgb(235, 235, 235);  
 }
