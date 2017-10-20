@@ -9,6 +9,11 @@
 
 ![ERD](app/assets/images/hazkit.png)
 
+
+## Wireframing
+
+![Figma link here](https://www.figma.com/file/ZzK8wDqYHfflCzlaXwa94JZI/TourHazardApp)
+
 ## GEMs/APIs
 
 * Geocoder - maps

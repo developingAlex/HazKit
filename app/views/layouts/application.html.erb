@@ -4,11 +4,19 @@
     <title>HazKit</title>
     <%= csrf_meta_tags %>
 
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500|Lobster+Two" rel="stylesheet">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <nav class="top_nav">
+      <div class="container">
+          <h1>HazKit</h1>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
