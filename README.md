@@ -16,7 +16,16 @@
 ![Wireframe](app/assets/images/hazkit_wireframe.jpg)
 
 
-## APIs/iFrames
-
-* Omniauth - logging in via fbook, google APIs for instance
 * Google Maps
+
+## Challenges
+
+* Work allocation - could have been more modularised, one person doing the wireframing/front-end, one sorting out the models + database, and som
+
+* Bootstrap - a greater familiarity with it across the team would have sped up development
+
+## Features to be implemented
+
+* APIs/iFrames: Omniauth - logging in via fbook, google maps for locations
+
+* Searching function 
