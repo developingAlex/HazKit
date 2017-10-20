@@ -9,7 +9,14 @@
 
 ![ERD](app/assets/images/hazkit.png)
 
-## GEMs/APIs
 
-* Geocoder - maps
-* Omniauth - logging in via fbook for instance
+## Wireframing
+
+[Figma link here](https://www.figma.com/file/ZzK8wDqYHfflCzlaXwa94JZI/TourHazardApp)
+![Wireframe](app/assets/images/hazkit_wireframe.jpg)
+
+
+## APIs/iFrames
+
+* Omniauth - logging in via fbook, google APIs for instance
+* Google Maps
