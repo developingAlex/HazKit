@@ -1,6 +1,9 @@
-<h1>Editing Profile</h1>
+<h1 class = 'text-center'>Editing Profile</h1>
 
+<div class='profilepic'><%#= image_tag @profile.profile_image_data %></div>
+
+<div class='text-center'>
 <%= render 'form', profile: @profile %>
-
+</div>
 <%= link_to 'Show', @profile %> |
 <%= link_to 'Back', profiles_path %>
