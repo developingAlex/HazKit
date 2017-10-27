@@ -11,24 +11,18 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :user_id %>
-    <%= form.text_field :user_id, id: :profile_user_id %>
-  </div>
+  <!-- shrine upload button goes here -->
+  <div class="btn btn-secondary">Upload new profile photo</div>
+
 
   <div class="field">
-    <%= form.label :name %>
+    <%= form.label :what_is_your_name? %>
     <%= form.text_field :name, id: :profile_name %>
   </div>
 
   <div class="field">
-    <%= form.label :home_location %>
+    <%= form.label :where_do_you_live? %>
     <%= form.text_field :home_location, id: :profile_home_location %>
-  </div>
-
-  <div class="field">
-    <%= form.label :profile_image_data %>
-    <%= form.text_area :profile_image_data, id: :profile_profile_image_data %>
   </div>
 
   <div class="actions">
